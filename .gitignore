@@ -1,0 +1,34 @@
+
+# Entornos de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+.azure/
+
+# Datos descargados o procesados
+*.csv
+*.parquet
+*.json
+data/
+downloads/
+output/
+tmp/
+
+# Archivos temporales y logs
+*.log
+*.tmp
+
+# Configuración local de editores
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
