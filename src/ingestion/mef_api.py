@@ -14,6 +14,7 @@ STORAGE_ACCOUNT = os.getenv(
     "AZURE_STORAGE_ACCOUNT",
     "stobservatorioperu01"
 )
+
 CONTAINER_NAME = "bronze"
 
 # Archivo CSV publicado por el MEF
